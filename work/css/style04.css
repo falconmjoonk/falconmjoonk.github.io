@@ -1,0 +1,37 @@
+/*style.css*/
+
+/*배경화면 색 설정*/
+body {
+    background-color:aliceblue;
+}
+.big{
+    text-align:center;
+    background-color:aquamarine;
+    border:10px double;
+}
+.mid{
+    text-align:center;
+    border: 2px solid;
+    background-color:pink;
+}
+.link{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+.small{
+    border:5px dotted black;
+    background-color:beige;
+    padding:10px 20px 10px 20px;
+    margin:20px;
+}
+.list{
+    padding: 50px;
+}
+a:hover{color:purple;}
+span{color:red;}
+
+.source{
+    text-align:right;
+}
