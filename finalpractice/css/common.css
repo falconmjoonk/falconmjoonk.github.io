@@ -1,0 +1,117 @@
+*{ margin: 0; padding:0; }
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+body {
+    font-family: "맑은 고딕", "돋움"; 
+    font-size: 12px; color: #444444; 
+    background-image:url("../img/background.png");
+    background-repeat:repeat;
+}
+ul { 
+    list-style-type: none; 
+}
+a:link, a:visited, a:hover, a:active{ 
+    text-decoration: none; 
+    color: #444444; 
+}
+.clear { 
+    clear: both; 
+}
+header {
+    background-color:cornsilk;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index:3;
+    height: 130px;
+    margin-bottom: 0;
+}
+header > h1 {
+	font-size: 2.5em;
+	text-align: center;
+	line-height: 70px;
+	margin-bottom: 10px;
+    text-shadow: 1px 3px 2px #cccccc;
+}
+header #top{
+    width: 990px;
+    margin: 0 auto;
+}
+header #logo {
+    float: left;
+    margin: 30px 0 0 0;
+}
+header #top_menu {
+    float: right;
+    margin-top: 45px;
+}
+
+header #top_menu li.green a:link {
+    font-size: 2em;
+    color: #96c11f; 
+} 
+header #top_menu li.green a:visited {
+    font-size: 2em;
+    color: #96c11f; 
+}
+header #top_menu li.green a:hover {
+    font-size: 2em;
+    color: #96c11f; 
+} 
+header #top_menu li.green a:active {
+    font-size: 2em;
+    color: #96c11f; 
+} 
+header #top_menu li {
+    display: inline; 
+    margin-left: 10px; 
+}
+header #main_menu {
+    height: 38px; 
+    margin-top: 15px; 
+    background-color: #4e4c4d; 
+} 
+header #main_menu ul {
+    width: 990px;
+    margin: auto ;
+    padding-top: 12px;
+    text-align: center; 
+} 
+header #main_menu li { 
+    display: inline;
+    margin: 0 57px; 
+}
+header #main_menu a:link {
+    color: #ffffff; 
+}
+header #main_menu a:visited {
+    color: #ffffff; 
+} 
+header #main_menu a:hover {
+    color: #ffffff; 
+} 
+header #main_menu a:active {
+    color: #ffffff;
+}
+footer {
+    height: 200px;
+    margin-top: 20px; 
+}
+footer #footer_box {
+    width: 990px;
+    margin: auto;
+}
+footer #footer_box div {
+    float: left;
+}
+footer #footer_box #footer_logo {
+    margin: 8px 0 0 80px;
+}
+footer #footer_box #address {
+    margin: 50px 0 0 30px;
+}

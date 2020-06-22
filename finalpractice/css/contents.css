@@ -1,0 +1,25 @@
+body {
+    padding-top: 130px;
+}
+section #main{
+    width: 990px;
+    margin: auto; 
+}
+section #cat1 {
+    background-color:white;
+    width: 215px; 
+    float: left; 
+    margin: 40px; 
+    font-weight: bold; 
+} 
+section#cat1 #cat_title {
+    padding: 12px; 
+    background-color: #96c11f; 
+    color: #ffffff; 
+    text-align: center; 
+} 
+section#cat1 li {
+    color: #666666; 
+    padding: 7px 0 7px 30px; 
+    border-bottom: solid 1px #cccccc; 
+}

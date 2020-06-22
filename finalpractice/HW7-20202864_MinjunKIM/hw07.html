@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HW07_20202864김민준</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        h1{
+            color: darkgreen;
+            margin: 20px 0px;
+        }
+        h2 {
+            color: white;
+            margin: 20px 0px;
+            background-color: rgba(0, 100, 0, 0.6);
+            font-size: 36px;
+        }
+        #square { list-style-type: square; }
+        #circle{
+            list-style-type: circle;
+            color: ;
+        }
+        .circle {
+            margin-left: 20px;
+            padding-left: 10px;
+        }
+        .decimal {
+            list-style-type: decimal;
+            margin-left: 20px;
+            padding-left: 10px;
+        }
+        #content li{
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+        #content a:hover {
+            background-color: lightgreen;
+            color: #000000;
+        }
+/*        테이블 */
+        table, tr, th, td {
+            border: solid 1px #ffd30d;
+            border-collapse: collapse;
+            padding: 20px;
+            font-family: 'Nanum Gothic', sans-serif;
+            font-weight: bold;
+            color: #000000;
+        }
+        #tbl_contact input[type='submit'] {
+            padding: 12px 17px;
+            color: #fff;
+            background: #fa6e3e;
+            border: 0;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            float: right;
+            display: inline-block;
+            width: 80px;            
+        }
+        #tbl_contact input[type='submit']:hover {
+            background: #d55427;
+            cursor: pointer;
+        }
+
+        #txt_center {
+            font-size: 38px;
+            text-align: center;
+            background-color: rgba(224, 216, 52, 0.8);
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper">
+        <div id="button">
+            <a href="https://falconmjoonk.github.io/work/index.html"><img src="https://falconmjoonk.github.io/work/img/mwam.png" alt="로고"></a>
+            <p>YA 김민준</p>
+        </div>
+       <div id="nav">
+            <ul>
+              <li><a href="https://falconmjoonk.github.io/work/index.html">Home</a></li>
+              <li><a href="./quiz11-03-personal_info-ans.html" >Q11-03</a></li>
+              <li><a href="./quiz11-04-member-ans.html">Q11-04</a></li>
+              <li><a href="../index.html">Portfolio</a></li>
+              <li><a href="./hw07.html">Contact</a></li>
+              <li><a href="https://falconmjoonk.github.io/">깃헙</a></li>
+            </ul>
+        </div>
+  <div id="content">
+    <div class="contA">
+      <h1>인터넷기초실습 교과목 HW07_20202864김민준</h1>
+    </div>   
+        <div class="contB">
+        <h2 id="txt_center">김민준한테 메시지 보내기</h2>   
+
+        <div id='tbl_contact'>
+         <form id='form_contact'>
+          <table border="3">
+             <tr>
+              <td> 이름 </td>
+              <td> <input type="text" name="writer" size="55"> </td>
+              <td> 연락처 </td>
+              <td> <input type="text" name="phone"></td>
+             </tr>
+             <tr>
+              <td> 이메일 </td>
+              <td> <input type="text" name="email" size="39"> @
+              <select>
+               <option> daum.net </option>
+               <option selected> gmail.com </option>
+               <option> naver.com </option>
+               <option> 직접입력 </option>
+              </select> </td>
+              <td> 성별 </td>
+              <td> <input type="radio" name="male" checked> 남성 
+                   <input type="radio" name="female"> 여성</td>
+             </tr>
+             <tr>
+              <td> 제목 </td>
+              <td colspan="4"> <input type="text" size="98"> </td>
+             </tr>
+             <tr>
+              <td> 메시지 </td>
+              <td colspan="4"> <textarea cols="100" rows="20"></textarea> </td>
+             </tr>
+             <tr>
+                 <td>첨부파일</td>
+                 <td colspan="4"><input type="file" name="file"></td>
+             </tr>
+          </table>
+          <div id="tbl_submit">
+              <input type="submit" value="전송">
+          </div>     
+          </form>    
+        </div>
+      </div>
+   </div>
+       <div id="footer">
+          <div id="footer_copyright">
+            <p>
+                Copyright &copy <a href="https://falconmjoonk.github.io/work/index.html" class="site">falconmjoonk</a> All rights reserved.
+            </p>
+            <span>EMAIL : falconmjoonk@gmail.com</span>
+          </div>
+       </div> 
+  </div>    
+  </body>
+</html>

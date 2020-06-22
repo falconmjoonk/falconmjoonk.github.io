@@ -1,0 +1,99 @@
+<!--hw03.html-->
+<!--인터넷기초실습7주차과제_도서소개페이지_20202864김민준-->
+
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>20202864 김민준의 도서 소개 페이지</title>
+    <style>
+/*        메뉴설정을 위한 css import*/
+        @import url('./css/stylemenu.css');
+/*        배경화면 색깔설정*/
+        body{
+             background-color:aliceblue;
+        }
+        h2{
+            line-height: 1%;
+        }
+/*        book에 필요한 CSS설정*/
+        .book {
+            text-align: center;
+        }
+/*        리스트에서 점 빼기*/
+        .list {
+            list-style-type:none;
+        }
+/*        책 제목 style 설정*/
+        .title{
+            font-weight: bold;
+            color: greenyellow;
+        }
+/*        작가 style 설정*/
+        .author{
+            text-shadow:5px 5px 2px #cccccc;
+        }
+/*        출판사 style 설정*/
+        .pub{
+            color:darkgray;
+        }
+/*        가격 style 설정*/
+        .price{
+            color:#ff0000;
+            font-weight: bold;
+        }
+/*        할인된 가격을 구분해주기 위하여*/
+        .price span{
+            text-decoration:line-through;
+        }
+    </style>
+</head>
+<body>
+<!--   메뉴설정-->
+    <div id="wrapper">
+        <div id="button">
+            <a href="./index.html"><img src="./img/mwam.png" alt="좋아하는 로고"></a>
+            <p>YA 김민준</p>
+        </div>
+       <div id="nav">
+            <ul>
+              <li><a href="./hw01.html">HW01</a></li>
+              <li><a href="./hw02.html">HW02</a></li>
+              <li><a href="./hw03.html">HW03</a></li>
+              <li><a href="./hw04-recipe.html">HW04-recipe</a></li>
+              <li><a href="./hw04-tetris.html">HW04-tetris</a></li>
+<!--              깃헙을 연결, target을 blank로 하여 과제확인 편하도록-->
+              <li><a href="https://github.com/falconmjoonk/falconmjoonk.github.io" target="_blank">깃헙</a></li>
+            </ul>
+        </div>
+<!--        본문-->
+   <div class="book">
+       <ul class="list"><!--클릭하면 인터넷 페이지로 바로 넘어가도록 설정-->
+           <li class="img"><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=110203986" target="_blank"><img src="./img/%ED%9A%8C%EC%82%AC%EC%97%90%EC%84%9C%20%EB%B0%94%EB%A1%9C%20%ED%86%B5%ED%95%98%EB%8A%94%20%EC%97%91%EC%85%80%20%ED%95%A8%EC%88%98%20%EC%8B%A4%EB%AC%B4%EA%B0%95%EC%9D%98.jpg" alt="회사에서 바로 통하는 엑셀 함수 실무 강의" title="클릭시 인터넷 서점으로 이동"></a></li>
+           <li class="title">회사에서 바로 통하는 엑셀 함수 실무 강의</li>
+           <li class="author">김경자, 송선영 지음</li>
+           <li class="pub">한빛미디어</li>
+           <li class="price"><span>19,800</span>17,820원</li>
+       </ul>
+   </div>
+   <div class="book">
+       <ul class="list">
+           <li class="img"><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=101132169" target="_blank"><img src="./img/%EB%AA%85%ED%92%88%20HTML5+CSS3+Javascript.jpg" alt="명품 HTML5+CSS3+Javascript 웹프로그래밍" title="클릭시 인터넷 서점으로 이동"></a></li>
+           <li class="title">명품 HTML5+CSS3+Javascript 웹프로그래밍</li>
+           <li class="author">황기태 지음</li>
+           <li class="pub">생능출판사</li>
+           <li class="price"><span>28,000원</span>28,000원</li>
+      </ul>    
+   </div>
+   <div class="book">
+       <ul class="list">
+           <li class="img"><a href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=178706491" target="_blank"><img src="./img/컴퓨터개론.jpg" alt="소프트웨어 중심사회의 컴퓨터개론" title="클릭시 인터넷 서점으로 이동"></a></li>
+           <li class="title">소프트웨어 중심사회의 컴퓨터개론</li>
+           <li class="author">강환스, 조진형, 신용현, 강환일 공저</li>
+           <li class="pub">인피티니 북스</li>
+           <li class="price"><span>27,000원</span>27,000원</li>
+       </ul>
+   </div>
+    </div>
+</body>
+</html>

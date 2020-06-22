@@ -1,0 +1,56 @@
+<!--인터넷기초실습 6주차 과제 index.html 20202864김민준-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>index.html_20202864김민준</title>
+    <style>
+/*        메뉴설정을 위한 css import*/
+    @import url('./css/stylemenu.css');
+/*    제목으로 들어갈 h1의 style을 설정*/
+    h1{
+        color : slateblue;
+        text-align:center;
+        font-size: 50;
+        }
+/*    주인장을 강조하기 위한 id style을 설정하였다.*/
+    #mine{
+        color : darkblue;
+        font-style:italic;
+        }
+/*    추가설명을 할때 style의 변화를 주고싶어서 explain이라는 클래스를 만들어 추가하였다.*/
+    .explain{
+        color : black;
+        font-style:normal;
+        font-size: 4px;
+        }
+    </style>
+</head>
+<body>
+<!--    메뉴설정-->
+     <div id="wrapper">
+        <div id="button">
+            <a href="./index.html"><img src="./img/mwam.png" alt="좋아하는 로고"></a>
+            <p>YA 김민준</p>
+        </div>
+       <div id="nav">
+            <ul>
+              <li><a href="./hw01.html">HW01</a></li>
+              <li><a href="./hw02.html">HW02</a></li>
+              <li><a href="./hw03.html">HW03</a></li>
+              <li><a href="./hw04-recipe.html">HW04-recipe</a></li>
+              <li><a href="./hw04-tetris.html">HW04-tetris</a></li>
+<!--              깃헙을 연결, target을 blank로 하여 과제확인 편하도록-->
+              <li><a href="https://github.com/falconmjoonk/falconmjoonk.github.io" target="_blank">깃헙</a></li>
+            </ul>
+        </div>
+   <h1>20202864 김민준의 홈페이지</h1>
+<!--   주인장이 강조된 부분에 마우스를 올려놓으면 "김민준은 이 홈페이지의 주인이다."라는 문자가 나온다.-->
+    <h2>안녕하세요! <b id="mine" title="김민준은 이 홈페이지의 주인이다."><ins>20202864 김민준의 홈페이지</ins><sup class="explain">동양미래대학교</sup><sub class="explain">컴퓨터소프트웨어학과</sub></b>에 오신 것을 환영합니다!</h2>
+    <p class="explain">이 홈페이지는 인터넷기초실습 6주차 과제를 위하여 작성되었습니다.</p>
+    <a href="./hello-css03.html">
+        <img src="./img/사진1.jpg" alt="hello-css03.html로 이동" title="클릭하면 새로운 html로 이동합니다.">
+    </a>
+    </div>
+</body>
+</html>
